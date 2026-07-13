@@ -1,4 +1,5 @@
 import ayomide from "../assets/images/ayomide.png";
+import ayomidecv from "../../public/ayomidecv.pdf";
 const Hero = () => {
   return (
     <section
@@ -69,7 +70,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="/Ayomide_Orokunle_CV.pdf"
+              href={ayomidecv}
               download
               className="
               border
